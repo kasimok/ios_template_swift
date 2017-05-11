@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2ADFCFCFD44E6ABDD6D38D70 /* Pods_RebelBrowser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24D1ECD2149E06BD0EF79D24 /* Pods_RebelBrowser.framework */; };
+		C2D5CC313F338DAFD38C834B /* Pods_RebelBrowserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D223B7D7704B91EC488727 /* Pods_RebelBrowserUITests.framework */; };
+		F0DBEE3569BA575F04AEA077 /* Pods_RebelBrowserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84746247BE5B8ED35415508C /* Pods_RebelBrowserTests.framework */; };
 		F276877A1EC452490054EDD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27687791EC452490054EDD9 /* AppDelegate.swift */; };
 		F276877C1EC452490054EDD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276877B1EC452490054EDD9 /* ViewController.swift */; };
 		F276877F1EC452490054EDD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F276877D1EC452490054EDD9 /* Main.storyboard */; };
@@ -34,6 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		24D1ECD2149E06BD0EF79D24 /* Pods_RebelBrowser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RebelBrowser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56D223B7D7704B91EC488727 /* Pods_RebelBrowserUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RebelBrowserUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		590FA28A04160766AD4D9786 /* Pods-RebelBrowser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebelBrowser.release.xcconfig"; path = "Pods/Target Support Files/Pods-RebelBrowser/Pods-RebelBrowser.release.xcconfig"; sourceTree = "<group>"; };
+		5BEA49D6C48E6089EBBB2351 /* Pods-RebelBrowserUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebelBrowserUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RebelBrowserUITests/Pods-RebelBrowserUITests.release.xcconfig"; sourceTree = "<group>"; };
+		69376698DC943244D964A223 /* Pods-RebelBrowserTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebelBrowserTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RebelBrowserTests/Pods-RebelBrowserTests.debug.xcconfig"; sourceTree = "<group>"; };
+		84746247BE5B8ED35415508C /* Pods_RebelBrowserTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RebelBrowserTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8650459CDB78A00745BD37AD /* Pods-RebelBrowserTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebelBrowserTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RebelBrowserTests/Pods-RebelBrowserTests.release.xcconfig"; sourceTree = "<group>"; };
+		894170923EAABCA7B6105C83 /* Pods-RebelBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebelBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RebelBrowser/Pods-RebelBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		F27687761EC452490054EDD9 /* RebelBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebelBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27687791EC452490054EDD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F276877B1EC452490054EDD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		F27687951EC452490054EDD9 /* RebelBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RebelBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27687991EC452490054EDD9 /* RebelBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebelBrowserUITests.swift; sourceTree = "<group>"; };
 		F276879B1EC452490054EDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8C8FB888484E4C263F324B /* Pods-RebelBrowserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebelBrowserUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RebelBrowserUITests/Pods-RebelBrowserUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2ADFCFCFD44E6ABDD6D38D70 /* Pods_RebelBrowser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F0DBEE3569BA575F04AEA077 /* Pods_RebelBrowserTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2D5CC313F338DAFD38C834B /* Pods_RebelBrowserUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		178821997A3D11A9976DAF1C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				24D1ECD2149E06BD0EF79D24 /* Pods_RebelBrowser.framework */,
+				84746247BE5B8ED35415508C /* Pods_RebelBrowserTests.framework */,
+				56D223B7D7704B91EC488727 /* Pods_RebelBrowserUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D69ADA8EF7F9E7CB3AFEF78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				894170923EAABCA7B6105C83 /* Pods-RebelBrowser.debug.xcconfig */,
+				590FA28A04160766AD4D9786 /* Pods-RebelBrowser.release.xcconfig */,
+				69376698DC943244D964A223 /* Pods-RebelBrowserTests.debug.xcconfig */,
+				8650459CDB78A00745BD37AD /* Pods-RebelBrowserTests.release.xcconfig */,
+				FC8C8FB888484E4C263F324B /* Pods-RebelBrowserUITests.debug.xcconfig */,
+				5BEA49D6C48E6089EBBB2351 /* Pods-RebelBrowserUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F276876D1EC452490054EDD9 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				F276878D1EC452490054EDD9 /* RebelBrowserTests */,
 				F27687981EC452490054EDD9 /* RebelBrowserUITests */,
 				F27687771EC452490054EDD9 /* Products */,
+				7D69ADA8EF7F9E7CB3AFEF78 /* Pods */,
+				178821997A3D11A9976DAF1C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +137,9 @@
 		F27687781EC452490054EDD9 /* RebelBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				F27687A71EC452540054EDD9 /* Resources */,
 				F27687791EC452490054EDD9 /* AppDelegate.swift */,
 				F276877B1EC452490054EDD9 /* ViewController.swift */,
-				F276877D1EC452490054EDD9 /* Main.storyboard */,
-				F27687801EC452490054EDD9 /* Assets.xcassets */,
-				F27687821EC452490054EDD9 /* LaunchScreen.storyboard */,
-				F27687851EC452490054EDD9 /* Info.plist */,
 			);
 			path = RebelBrowser;
 			sourceTree = "<group>";
@@ -125,6 +162,17 @@
 			path = RebelBrowserUITests;
 			sourceTree = "<group>";
 		};
+		F27687A71EC452540054EDD9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F276877D1EC452490054EDD9 /* Main.storyboard */,
+				F27687801EC452490054EDD9 /* Assets.xcassets */,
+				F27687821EC452490054EDD9 /* LaunchScreen.storyboard */,
+				F27687851EC452490054EDD9 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +180,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F276879E1EC452490054EDD9 /* Build configuration list for PBXNativeTarget "RebelBrowser" */;
 			buildPhases = (
+				2CFFE9B908589D69E8FCAB6C /* [CP] Check Pods Manifest.lock */,
 				F27687721EC452490054EDD9 /* Sources */,
 				F27687731EC452490054EDD9 /* Frameworks */,
 				F27687741EC452490054EDD9 /* Resources */,
+				1D8813D1D36594C77DE08671 /* [CP] Embed Pods Frameworks */,
+				A8C650D6CCEC731B61AB09B8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F27687A11EC452490054EDD9 /* Build configuration list for PBXNativeTarget "RebelBrowserTests" */;
 			buildPhases = (
+				3D5E87261E09E200CD1046F8 /* [CP] Check Pods Manifest.lock */,
 				F27687861EC452490054EDD9 /* Sources */,
 				F27687871EC452490054EDD9 /* Frameworks */,
 				F27687881EC452490054EDD9 /* Resources */,
+				8FA8EBF8B839DBD29FC4F68F /* [CP] Embed Pods Frameworks */,
+				3AB47890265DCC6A291170B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +221,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F27687A41EC452490054EDD9 /* Build configuration list for PBXNativeTarget "RebelBrowserUITests" */;
 			buildPhases = (
+				95E0A571C852084688DBEE6B /* [CP] Check Pods Manifest.lock */,
 				F27687911EC452490054EDD9 /* Sources */,
 				F27687921EC452490054EDD9 /* Frameworks */,
 				F27687931EC452490054EDD9 /* Resources */,
+				B2815DEE26DBDCC87BE59209 /* [CP] Embed Pods Frameworks */,
+				E5104A6DA21A9F87248C6573 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -256,6 +313,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D8813D1D36594C77DE08671 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RebelBrowser/Pods-RebelBrowser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CFFE9B908589D69E8FCAB6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3AB47890265DCC6A291170B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RebelBrowserTests/Pods-RebelBrowserTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D5E87261E09E200CD1046F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8FA8EBF8B839DBD29FC4F68F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RebelBrowserTests/Pods-RebelBrowserTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95E0A571C852084688DBEE6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A8C650D6CCEC731B61AB09B8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RebelBrowser/Pods-RebelBrowser-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2815DEE26DBDCC87BE59209 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RebelBrowserUITests/Pods-RebelBrowserUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5104A6DA21A9F87248C6573 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RebelBrowserUITests/Pods-RebelBrowserUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F27687721EC452490054EDD9 /* Sources */ = {
@@ -415,6 +610,7 @@
 		};
 		F276879F1EC452490054EDD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 894170923EAABCA7B6105C83 /* Pods-RebelBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GZRDUU6C3R;
@@ -428,6 +624,7 @@
 		};
 		F27687A01EC452490054EDD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 590FA28A04160766AD4D9786 /* Pods-RebelBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = GZRDUU6C3R;
@@ -441,6 +638,7 @@
 		};
 		F27687A21EC452490054EDD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69376698DC943244D964A223 /* Pods-RebelBrowserTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +654,7 @@
 		};
 		F27687A31EC452490054EDD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8650459CDB78A00745BD37AD /* Pods-RebelBrowserTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +670,7 @@
 		};
 		F27687A51EC452490054EDD9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC8C8FB888484E4C263F324B /* Pods-RebelBrowserUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = GZRDUU6C3R;
@@ -485,6 +685,7 @@
 		};
 		F27687A61EC452490054EDD9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BEA49D6C48E6089EBBB2351 /* Pods-RebelBrowserUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = GZRDUU6C3R;
