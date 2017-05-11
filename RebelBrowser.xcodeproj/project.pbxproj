@@ -11,12 +11,12 @@
 		C2D5CC313F338DAFD38C834B /* Pods_RebelBrowserUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D223B7D7704B91EC488727 /* Pods_RebelBrowserUITests.framework */; };
 		F0DBEE3569BA575F04AEA077 /* Pods_RebelBrowserTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84746247BE5B8ED35415508C /* Pods_RebelBrowserTests.framework */; };
 		F276877A1EC452490054EDD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27687791EC452490054EDD9 /* AppDelegate.swift */; };
-		F276877C1EC452490054EDD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276877B1EC452490054EDD9 /* ViewController.swift */; };
 		F276877F1EC452490054EDD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F276877D1EC452490054EDD9 /* Main.storyboard */; };
 		F27687811EC452490054EDD9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F27687801EC452490054EDD9 /* Assets.xcassets */; };
 		F27687841EC452490054EDD9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F27687821EC452490054EDD9 /* LaunchScreen.storyboard */; };
 		F276878F1EC452490054EDD9 /* RebelBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276878E1EC452490054EDD9 /* RebelBrowserTests.swift */; };
 		F276879A1EC452490054EDD9 /* RebelBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27687991EC452490054EDD9 /* RebelBrowserUITests.swift */; };
+		F27687C41EC461D20054EDD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27687C21EC4613F0054EDD9 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,6 @@
 		894170923EAABCA7B6105C83 /* Pods-RebelBrowser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebelBrowser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RebelBrowser/Pods-RebelBrowser.debug.xcconfig"; sourceTree = "<group>"; };
 		F27687761EC452490054EDD9 /* RebelBrowser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RebelBrowser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27687791EC452490054EDD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F276877B1EC452490054EDD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F276877E1EC452490054EDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F27687801EC452490054EDD9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F27687831EC452490054EDD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		F27687951EC452490054EDD9 /* RebelBrowserUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RebelBrowserUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F27687991EC452490054EDD9 /* RebelBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebelBrowserUITests.swift; sourceTree = "<group>"; };
 		F276879B1EC452490054EDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F27687C21EC4613F0054EDD9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FC8C8FB888484E4C263F324B /* Pods-RebelBrowserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebelBrowserUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RebelBrowserUITests/Pods-RebelBrowserUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,9 +137,9 @@
 		F27687781EC452490054EDD9 /* RebelBrowser */ = {
 			isa = PBXGroup;
 			children = (
+				F27687BC1EC460AB0054EDD9 /* Src */,
 				F27687A71EC452540054EDD9 /* Resources */,
 				F27687791EC452490054EDD9 /* AppDelegate.swift */,
-				F276877B1EC452490054EDD9 /* ViewController.swift */,
 			);
 			path = RebelBrowser;
 			sourceTree = "<group>";
@@ -171,6 +171,54 @@
 				F27687851EC452490054EDD9 /* Info.plist */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		F27687BC1EC460AB0054EDD9 /* Src */ = {
+			isa = PBXGroup;
+			children = (
+				F27687C11EC460F90054EDD9 /* Views */,
+				F27687C01EC460F20054EDD9 /* Stores */,
+				F27687BF1EC460EC0054EDD9 /* Models */,
+				F27687BE1EC460E20054EDD9 /* Helpers */,
+				F27687BD1EC460D60054EDD9 /* Controllers */,
+			);
+			path = Src;
+			sourceTree = "<group>";
+		};
+		F27687BD1EC460D60054EDD9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F27687C21EC4613F0054EDD9 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F27687BE1EC460E20054EDD9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F27687BF1EC460EC0054EDD9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F27687C01EC460F20054EDD9 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		F27687C11EC460F90054EDD9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,7 +298,7 @@
 				TargetAttributes = {
 					F27687751EC452490054EDD9 = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = GZRDUU6C3R;
+						DevelopmentTeam = T2DT6C6U3X;
 						ProvisioningStyle = Automatic;
 					};
 					F27687891EC452490054EDD9 = {
@@ -457,7 +505,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F276877C1EC452490054EDD9 /* ViewController.swift in Sources */,
+				F27687C41EC461D20054EDD9 /* ViewController.swift in Sources */,
 				F276877A1EC452490054EDD9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,7 +661,7 @@
 			baseConfigurationReference = 894170923EAABCA7B6105C83 /* Pods-RebelBrowser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GZRDUU6C3R;
+				DEVELOPMENT_TEAM = T2DT6C6U3X;
 				INFOPLIST_FILE = RebelBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evillisn.RebelBrowser;
@@ -627,7 +675,7 @@
 			baseConfigurationReference = 590FA28A04160766AD4D9786 /* Pods-RebelBrowser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GZRDUU6C3R;
+				DEVELOPMENT_TEAM = T2DT6C6U3X;
 				INFOPLIST_FILE = RebelBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.evillisn.RebelBrowser;
@@ -717,6 +765,7 @@
 				F27687A01EC452490054EDD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F27687A11EC452490054EDD9 /* Build configuration list for PBXNativeTarget "RebelBrowserTests" */ = {
 			isa = XCConfigurationList;
@@ -725,6 +774,7 @@
 				F27687A31EC452490054EDD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F27687A41EC452490054EDD9 /* Build configuration list for PBXNativeTarget "RebelBrowserUITests" */ = {
 			isa = XCConfigurationList;
@@ -733,6 +783,7 @@
 				F27687A61EC452490054EDD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
