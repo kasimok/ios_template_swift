@@ -17,6 +17,7 @@
 		F276878F1EC452490054EDD9 /* RebelBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F276878E1EC452490054EDD9 /* RebelBrowserTests.swift */; };
 		F276879A1EC452490054EDD9 /* RebelBrowserUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27687991EC452490054EDD9 /* RebelBrowserUITests.swift */; };
 		F27687C41EC461D20054EDD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27687C21EC4613F0054EDD9 /* ViewController.swift */; };
+		F2A6A6331EC4639300523E79 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A6A6321EC4639300523E79 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		F27687991EC452490054EDD9 /* RebelBrowserUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RebelBrowserUITests.swift; sourceTree = "<group>"; };
 		F276879B1EC452490054EDD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F27687C21EC4613F0054EDD9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F2A6A6321EC4639300523E79 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		FC8C8FB888484E4C263F324B /* Pods-RebelBrowserUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RebelBrowserUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RebelBrowserUITests/Pods-RebelBrowserUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -176,6 +178,7 @@
 		F27687BC1EC460AB0054EDD9 /* Src */ = {
 			isa = PBXGroup;
 			children = (
+				F2A6A6311EC4637B00523E79 /* Constants */,
 				F27687C11EC460F90054EDD9 /* Views */,
 				F27687C01EC460F20054EDD9 /* Stores */,
 				F27687BF1EC460EC0054EDD9 /* Models */,
@@ -219,6 +222,14 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		F2A6A6311EC4637B00523E79 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				F2A6A6321EC4639300523E79 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -507,6 +518,7 @@
 			files = (
 				F27687C41EC461D20054EDD9 /* ViewController.swift in Sources */,
 				F276877A1EC452490054EDD9 /* AppDelegate.swift in Sources */,
+				F2A6A6331EC4639300523E79 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
